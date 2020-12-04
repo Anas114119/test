@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Cambay';
+    src: url('Cambay-BoldItalic.woff2') format('woff2'),
+        url('Cambay-BoldItalic.woff') format('woff'),
+        url('Cambay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('Cambay-Italic.woff2') format('woff2'),
+        url('Cambay-Italic.woff') format('woff'),
+        url('Cambay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('Cambay-Bold.woff2') format('woff2'),
+        url('Cambay-Bold.woff') format('woff'),
+        url('Cambay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('Cambay-Regular.woff2') format('woff2'),
+        url('Cambay-Regular.woff') format('woff'),
+        url('Cambay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

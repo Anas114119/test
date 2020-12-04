@@ -1,0 +1,623 @@
+:root{
+
+    --brand-primary:rgba(42, 23, 106, 1);
+    --brand-secondary:rgba(252, 211, 51, 1);
+    --brand-tertiary:rgba(206, 202, 255, 1);
+
+}
+button:focus{
+    outline: 0;
+    border: none;
+}
+button{
+
+    border: none;
+    outline: none;
+}
+@font-face {
+    font-family: 'Cambay';
+    src: url('../fonts/Cambay-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Cambay-BoldItalic.woff') format('woff'),
+        url('../fonts/Cambay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('../fonts/Cambay-Italic.woff2') format('woff2'),
+        url('../fonts/Cambay-Italic.woff') format('woff'),
+        url('../fonts/Cambay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('../fonts/Cambay-Bold.woff2') format('woff2'),
+        url('../fonts/Cambay-Bold.woff') format('woff'),
+        url('../fonts/Cambay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('../fonts/Cambay-Regular.woff2') format('woff2'),
+        url('../fonts/Cambay-Regular.woff') format('woff'),
+        url('../fonts/Cambay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambria';
+    src: url('../fonts/Cambria.woff2') format('woff2'),
+        url('../fonts/Cambria.woff') format('woff'),
+        url('../fonts/Cambria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambria';
+    src: url('../fonts/Cambria-Bold.woff2') format('woff2'),
+        url('../fonts/Cambria-Bold.woff') format('woff'),
+        url('../fonts/Cambria-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambria';
+    src: url('../fonts/Cambria-Italic.woff2') format('woff2'),
+        url('../fonts/Cambria-Italic.woff') format('woff'),
+        url('../fonts/Cambria-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambria';
+    src: url('../fonts/Cambria-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Cambria-BoldItalic.woff') format('woff'),
+        url('../fonts/Cambria-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+header{
+
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: var(--brand-primary);
+}
+body{
+    background-color: var(--brand-primary);
+}
+.header-wrapper{
+
+    /* max-width: 1274px; */
+    padding-top: 20px;
+}
+.star img{
+
+    position: absolute;
+
+}
+.star1,
+.star2{
+    transform: translate(-5px, -20px);
+}
+.navbar-brand > img{
+    width: 150px;
+    height: auto;
+    transform: rotate(-25deg) translate(5px,3px);
+}
+.navbar-nav li a{
+
+    padding:  0 15px;                   
+    font-family: Cambay;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+ul.navbar-nav {
+
+    margin-left: auto;
+}
+.navbar-nav li a:hover{
+
+    text-decoration: none;
+    color: var(--brand-secondary);
+}
+#about{
+    margin-top: 80px;
+}
+#about h3,
+#client-testimonial h3,
+#book-now h3,
+#Faq h3
+{
+
+    font-family: Cambria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+   
+}
+.row-bg{
+    background: rgba(208, 204, 255, 1);
+    max-width: 933px;
+    margin-left:auto;
+    padding: 30px 25px 25px;
+    box-shadow: 0px 4px 15px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.hero-img-wrapper{
+    position: relative;
+    left: -230px;
+    top: 30px;
+
+}
+.about-text{
+    font-family: Cambria;
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    color: #2A176A;
+}
+.social-coonect{
+    font-family: Cambay;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #2A176A;
+    text-align: center;
+    padding: 10px 0;
+}
+.social-coonect img{
+    padding: 0 10px;
+}
+#client-testimonial{
+
+    margin-top: 150px;
+    position: relative;
+}
+.slick_testimonail{
+
+    max-width: 1000px;
+    height: auto;
+    /* overflow-x: hidden; */
+    margin: 0 auto;
+
+}
+.testimonial-wrapper{
+    max-width: 920px;
+    height: 320px;
+    margin: 0 50px;
+    background: #CECAFF;
+    box-shadow: 0px 1px 15px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-wrapper > img{
+    margin-bottom:25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonial-text{
+
+    font-family: Cambria;
+    width: 790px;
+    margin-bottom: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #2A176A;
+    margin-left: auto;
+    margin-right: auto;
+}
+.client p{
+    font-family: Cambria;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A176A;
+    text-align: center !important;
+}
+.client-wrap .ratings img,
+.client-wrap .client p{
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.slick-slide{
+    outline: none;
+}
+.slickslider-btn{
+    border-radius: 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    z-index: 5;
+}
+.slickslider-btn:focus{
+    outline: 0;
+    
+}
+.right{
+    position: absolute;
+    top: 30%;
+    right: -10%;
+}
+.left{
+    transform: rotate(180deg);
+    position: absolute;
+    top: 30%;
+    left: -10%;
+}
+.page-no{
+
+    font-family: Cambay;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color:  #acacac;
+    margin-top: 25px;
+    
+}
+.white{
+    color: #FFFFFF;
+}
+#book-now{
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+.session-wrapper{
+    padding: 10px 0;
+    position: relative;
+}
+.price-tags{
+
+    width: 90px;
+    height: 37px;
+    background: #FFFFFF;
+    border: 3px solid var(--brand-secondary);
+    box-sizing: border-box;
+    border-radius: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 35%;
+    transform: translateY(-20px);
+}
+.session-heading{
+
+    font-family: Cambria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    width: 570px;
+    color: #FFFFFF;
+}
+.buy-now-btn{
+
+    width: 126px;
+    height: 39px;
+    background-color: var(--brand-secondary);
+    border-radius: 170px;
+    position: absolute;
+    cursor: pointer;
+    top: 3%;
+    right: 0;
+    border: none;
+    outline: 0;
+}
+.buy-now-btn:focus{
+
+    border: none;
+    outline: 0;
+    
+}
+.buy-now-btn span{
+
+    font-family: Cambay;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 10px;
+    align-items: center;
+    color: #2A176A;
+}
+.session-info{
+
+    font-family: Cambay;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #acacac;
+}
+.session-tabs{
+
+    justify-content: space-between;
+    position: relative;
+}
+
+.session-tabs li a{
+
+    color: #acacac;
+    font-family: Cambay;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    padding-right: 30px;
+}
+.session-tabs li a:hover{
+
+    color: #ffffff;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 4px solid #fff;
+}
+.nav-tabs .nav-link {
+
+    border:0;
+    border-top-left-radius: 0;
+    border-top-right-radius:0;
+}
+.session-text{
+
+    font-family: Cambay;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    color: #F2F2F2;
+}
+#description{
+
+    padding: 30px 0px;
+}
+.session-img-2{
+
+    width: 350px;
+    height: 308px;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq-qus{
+
+    width: 540px;
+    height: 64px;
+    background: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.faq-ans{
+
+    padding: 10px;
+}
+.faq-container{
+
+    width: 540px;
+    height: auto;
+    background: #CECAFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: relative;
+    margin: 20px 10px;
+}
+.faq-qus h5{
+
+    font-family: Cambria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+   text-align: left;
+    padding: 0 60px 0 15px ;
+    color: #2A176A;
+    position: relative;
+}
+.faq-qus h5[aria-expanded="true"]::after{
+
+    content: "";
+    background-image: url("../img/minus-circle.svg");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    align-self: center;
+    right: 15px;
+}
+.faq-qus h5[aria-expanded="false"]::after{
+
+    content: "";
+    background-image: url("../img/plus-circle.svg");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    align-self: center;
+    right: 15px;
+}
+.faq-qus h5::after{
+
+    content: "";
+    background-image: url("../img/plus-circle.svg");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    align-self: center;
+    right: 15px;
+}
+
+footer{
+
+    background: #CECAFF;
+}
+.footer-wrapper{
+
+    padding-top: 55px;
+}
+.newsletter-heading,
+.contact-heading{
+
+    text-transform: uppercase;
+    font-family: Cambria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2A176A;
+}
+.sing-up-text{
+
+    width: 445px;
+    font-family: Cambria;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2A176A;
+}
+.newsletter input[type="text"],
+.newsletter input[type="email"]{
+
+    height: 40px;
+    width: 445px;
+    border-radius: 5px;
+    margin: 7.5px 0;
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    
+}
+.newsletter input[type="text"],
+.newsletter input[type="email"]:focus{
+
+    border: none;
+    outline: none;
+}
+.Sign-up-btn{
+
+    border: none;
+    outline: 0;
+    background: var(--brand-secondary);
+    border-radius: 170px;
+    width: 445px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambay;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 10px;  
+    color: #2A176A;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.contact-text{
+    font-family: Cambria;
+    width: 540px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #2A176A;
+    margin: 15px 0;
+}
+.contact-text-2{
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2A176A;
+}
+.contact-text-2 img{
+
+    margin-right: 15px  ;
+}
+.follow-link p{
+
+    font-family: Cambay;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2A176A;
+}
+.follow-link img{
+
+    margin: 0 10px;
+}
+.copyright-section{
+
+    border-top: 0.75px solid rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.copyright-section h6{
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #2A176A;
+}
